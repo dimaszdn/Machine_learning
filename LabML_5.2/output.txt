@@ -1,0 +1,17 @@
+Сравнение: 
+
+--- RandomForestClassifier ---
+accuracy_score(y_true, y_pred) = 0.8061
+precision_score(y_true, y_pred) = 0.7241
+recall_score(y_true, y_pred) = 0.6562
+f1_score(y_true, y_pred) = 0.6885
+Время обучения: 0.1304
+
+--- XGBClassifier ---
+accuracy_score(y_true, y_pred) = 0.8163
+precision_score(y_true, y_pred) = 0.7188
+recall_score(y_true, y_pred) = 0.7188
+f1_score(y_true, y_pred) = 0.7188
+Время обучения: 0.2490
+
+Выбранные параметры: {'objective': 'binary:logistic', 'n_estimators': 200, 'max_depth': 6, 'subsample': 0.8}
